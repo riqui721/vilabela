@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vila Bela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vila Bela</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Vila Bela</h2>
+        <p>Experience the charm of Celorico de Basto with a stay at our beautiful house. Enjoy stunning views, a private pool, and all the comforts of home, just an hour away from Porto.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Vila Bela</h2>
+        <p>Located in the picturesque town of Celorico de Basto, Vila Bela offers a perfect getaway. With a master bedroom, a cozy bathroom, and three comfortable beds, our house provides a peaceful retreat with breathtaking views.</p>
+    </section>
+
+    <section id="accommodations">
+        <h2>Accommodations</h2>
+        <ul>
+            <li><strong>Master Bedroom:</strong> A spacious room with a king-size bed and stunning views.</li>
+            <li><strong>Bathroom:</strong> A modern bathroom with all the amenities.</li>
+            <li><strong>Three Beds:</strong> Comfortable beds in a serene setting.</li>
+            <li><strong>Pool:</strong> Enjoy a refreshing swim in our private pool.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="View from the house">
+            <img src="image2.jpg" alt="Pool">
+            <img src="image3.jpg" alt="Master Bedroom">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries or bookings, please fill out the form below or contact us directly at:</p>
+        <p>Email: <a href="mailto:info@vilabela.com">info@vilabela.com</a></p>
+        <p>Phone: +351 123 456 789</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vila Bela. All rights reserved.</p>
+    </footer>
+</body>
+</html>
